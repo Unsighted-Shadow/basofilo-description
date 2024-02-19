@@ -93,7 +93,8 @@ body {
     }
 
     .img__one {
-        padding-left: auto;
+        display: flex;
+        justify-content: center;
         padding-top: auto;
         width: 75%;
         height: 75%
