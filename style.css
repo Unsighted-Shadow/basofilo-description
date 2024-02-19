@@ -41,7 +41,6 @@ body {
     display: flex;
     justify-self: center;
     padding-top: 5%;
-    padding-left: 30%;
 }
 
 .buttons {
@@ -85,7 +84,7 @@ body {
     justify-self: left;
 }
 
-@media (max-width: 1200px) {
+@media (max width: 1200px) {
     
     body {
         padding: 10%;
