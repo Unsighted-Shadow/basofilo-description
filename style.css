@@ -87,14 +87,19 @@ body {
 
 @media (max-width: 1200px) {
     
+    *{
+        padding: 0;
+        margin: 0;
+    }
+
     body {
-        padding: 10%;
+        padding: 5%;
     }
 
     .img__one {
         padding-right: 20%;
-        width: 30%;
-        height: 30%
+        width: 50%;
+        height: 50%
     }
 
     .buttons {
@@ -102,7 +107,7 @@ body {
     }
 
     .button__style {
-        width: 20%;
+        width: 50%;
     }
 
     .head {
