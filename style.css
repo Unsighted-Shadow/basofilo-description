@@ -85,7 +85,7 @@ body {
     justify-self: left;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 767px) {
     
     *{
         padding: 0;
