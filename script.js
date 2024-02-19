@@ -1,5 +1,3 @@
-// readAltText.js
-
 var currentIndex = 0;
 var delayBetweenImages = 5000; // Time gap between each image in milliseconds
 var intervalId;
@@ -30,6 +28,8 @@ function readNextAltText() {
     }
 }
 
-// Add event listeners for touch events
+// Add event listeners for both click and touch events
+document.getElementById('startButton').addEventListener('click', startReading);
 document.getElementById('startButton').addEventListener('touchstart', startReading);
+document.getElementById('stopButton').addEventListener('click', stopReading);
 document.getElementById('stopButton').addEventListener('touchstart', stopReading);
