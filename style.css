@@ -93,7 +93,8 @@ body {
     }
 
     .img__one {
-        padding-right: 20%;
+        padding-left: auto;
+        padding-top: auto;
         width: 75%;
         height: 75%
     }
