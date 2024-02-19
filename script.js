@@ -16,7 +16,7 @@ function readNextAltText() {
     if (currentIndex < images.length) {
         var altText = images[currentIndex].alt;
         if (altText && altText.trim() !== '') {
-            responsiveVoice.speak(altText, 'Brazilian Portuguese Male', {rate: 1.8});
+            responsiveVoice.speak(altText, 'Brazilian Portuguese Female', {rate: 1.8});
             currentIndex++;
             // Add a delay before moving to the next alt text
             intervalId = setTimeout(readNextAltText, delayBetweenImages);
