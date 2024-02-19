@@ -85,15 +85,16 @@ body {
     justify-self: left;
 }
 
-@media (max width: 1200px) {
+@media (max-width: 1200px) {
     
     body {
-        padding: 5%;
+        padding: 10%;
     }
 
     .img__one {
         padding: auto;
         width: 30%;
+        height: 30%
     }
 
     .buttons {
