@@ -1,0 +1,30 @@
+// readAltText.js
+
+var currentIndex = 0;
+var delayBetweenImages = 5000; // Time gap between each image in milliseconds
+
+function startReading() {
+    readNextAltText();
+}
+
+function stopReading() {
+    clearTimeout(intervalId);
+}
+
+function readNextAltText() {
+    var images = document.getElementsByTagName('img');
+    if (currentIndex < images.length) {
+        var altText = images[currentIndex].alt;
+        if (altText && altText.trim() !== '') {
+            responsiveVoice.speak(altText, 'Brazilian Portuguese Male', {rate: 1.8});
+            currentIndex++;
+            // Add a delay before moving to the next alt text
+            intervalId = setTimeout(readNextAltText, delayBetweenImages);
+        } else {
+            currentIndex++; // Move to the next image if alt text is empty
+            readNextAltText(); // Continue reading alt text of the next image
+        }
+    } else {
+        currentIndex = 0; // Reset the index to start over
+    }
+}
