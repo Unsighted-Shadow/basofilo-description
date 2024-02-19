@@ -41,7 +41,7 @@ body {
     display: flex;
     justify-self: center;
     padding-top: 5%;
-    padding-left: 40%;
+    padding-left: 30%;
 }
 
 .buttons {
@@ -92,7 +92,7 @@ body {
     }
 
     .img__one {
-        padding: 20%;
+        padding-left: 10%;
         width: 30%;
         height: 30%
     }
