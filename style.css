@@ -92,10 +92,6 @@ body {
         margin: 0;
     }
 
-    body {
-        padding: 5%;
-    }
-
     .img__one {
         padding-right: 20%;
         width: 75%;
@@ -111,11 +107,11 @@ body {
     }
 
     .head {
-        padding: 10%;
+        padding: 5%;
     }
 
     .foot {
-        padding: 10%;
+        padding: 5%;
     }
 
 }
