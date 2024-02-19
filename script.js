@@ -28,3 +28,6 @@ function readNextAltText() {
         currentIndex = 0; // Reset the index to start over
     }
 }
+
+document.getElementById('startButton').addEventListener('touchstart', startReading);
+document.getElementById('stopButton').addEventListener('touchstart', stopReading);
