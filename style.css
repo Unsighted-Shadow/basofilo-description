@@ -93,10 +93,15 @@ body {
 
     .img__one {
         padding: auto;
+        width: fit-content;
     }
 
     .buttons {
         padding: auto;
+    }
+
+    .button__style {
+        width: 20%;
     }
 
     .head {
