@@ -27,9 +27,3 @@ function readNextAltText() {
         currentIndex = 0; // Reset the index to start over
     }
 }
-
-// Add event listeners for both click and touch events
-document.getElementById('startButton').addEventListener('click', startReading);
-document.getElementById('startButton').addEventListener('touchstart', startReading);
-document.getElementById('stopButton').addEventListener('click', stopReading);
-document.getElementById('stopButton').addEventListener('touchstart', stopReading);
